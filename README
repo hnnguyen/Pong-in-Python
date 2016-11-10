@@ -1,0 +1,4 @@
+Created by Henry Nguyen
+September 29, 2015
+READ
+PingPong.py is a simple python program that simulates the movement of a ball using the Pygame platform. Using pygame functions, the screen is initialized and set to a black background. After the initialization of the background, a circle is drawn using the draw.circle method. The method takes the surface, color, radius, and coordinates as the parameters. The time is recorded into the clock variable using the pygame.time.Clock() method. As time passes, the x and y coordinates of the circle is updated to portray movement. If the circle reaches a boundary (sides or top and bottom), the direction of the circle is inverted to portray bouncing. 
